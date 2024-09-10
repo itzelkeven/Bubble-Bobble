@@ -1,7 +1,7 @@
 # THE NAME OF YOUR EXECUTABLE
 TARGET = main
 # ALL CPP COMPILABLE IMPLEMENTATION FILES THAT MAKE UP THE PROJECT
-SRC_FILES = main.cpp
+SRC_FILES = main.cpp Bubble.cpp
 
 # NO EDITS NEEDED BELOW THIS LINE
 
@@ -75,3 +75,4 @@ depend:
 
 # DEPENDENCIES
 main.o: main.cpp
+Bubble.o: Bubble.h Bubble.cpp
